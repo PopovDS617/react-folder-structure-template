@@ -1,2 +1,11 @@
-# react-folder-structure-template
-template structure template
+assets - изображения, svg и т.д.
+components - для хранения реюзабельных компонентов => ui, forms, inputs, buttons
+context - для useContext
+data - для хранения переменных, конфигураций, json файлов
+features - для снижения засоренности папки pages, можно ключевые функции (auth, settings, list, messages, feed) разбить на отдельные папки, содержащие только компоненты, относящиеся к этим функциям. Каждый набор папок содержит свой index.js, в которой все ипортируется
+hooks - кастом хуки
+layouts - визуальные и навигационные элементы: navbars, sidebars, headers
+lib - сторонние библиотеки
+pages - для хранения страниц и компонентов, которые на них расположены: HomePage => ItemList => Item
+services - взаимодействие с API
+utils - вспомогательные функции: форматтеры дат, валют и т.д.
